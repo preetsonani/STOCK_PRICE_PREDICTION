@@ -3,6 +3,6 @@ yfinance
 pandas_datareader
 keras
 datetime
-sklearn
+scikit-learn
 tensorflow
 
