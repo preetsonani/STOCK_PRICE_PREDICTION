@@ -19,6 +19,7 @@ user_input = st.text_input('Enter Stock Ticker', 'AAPL') # Getting user input fo
 data = yf.download(f'{user_input}', period = '5y') # downloading data from yahoo finance using yfinance library
 data.to_csv(f'{user_input}.csv') # Data will be stored in data folder
 df = pd.read_csv(f'{user_input}.csv')
+df = df.tail(1258)
 
 date = pd.to_datetime(df.Date)
 
