@@ -1,2 +1,13 @@
 matplotlib
 yfinance
+pandas_datareader
+keras
+load_model
+datetime
+date
+sklearn
+MinMaxScaler
+tensorflow
+Sequential
+dense
+LSTM
