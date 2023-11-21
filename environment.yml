@@ -1,6 +1,6 @@
 pandas
 numpy
-matplotlib
+matplotlib.pyplot
 streamlit
 yfinance
 pandas_datareader
