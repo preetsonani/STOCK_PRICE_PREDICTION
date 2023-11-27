@@ -38,7 +38,7 @@ fig = plt.figure(figsize = (12,6))
 plt.plot(date, df1)
 plt.xlabel('Time')
 plt.ylabel('Price')
-plt.legend()
+show.legend()
 st.pyplot(fig)
 
 st.subheader('Closing Price vs Time Chart with 100MA')
